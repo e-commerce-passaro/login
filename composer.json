@@ -1,0 +1,34 @@
+{
+  "name" : "e-commerce-passaro/login",
+  "description" : "Biblioteca de login",
+  "version": "0.0.1",
+  "type":"library",
+  "homepage":"https://github.com/e-commerce-passaro/login",
+  "time":"2017-04-12 14:44:01",
+  "license":"GPL-3.0+",
+  "authors":[{
+	"name":"Marcel Bezerra da Silva",
+	"email":"marcelbzrra@gmail.com",
+	"role":"developer"
+  }],
+  "support": {
+  	"email":"marcelbzrra@gmail.com",
+  	"issues":"https://github.com/e-commerce-passaro/login/issues",
+  	"wiki":"https://github.com/e-commerce-passaro/login/wiki",
+  	"source":"https://github.com/e-commerce-passaro/login/releases"
+  },
+  "require" : {
+    "php" : ">=7.0",
+    "zendframework/zend-form" : "2.10.0",
+    "zendframework/zend-inputfilter" : "2.7.3",
+    "e-commerce-passaro/acesso" : "0.0.1",
+    "e-commerce-passaro/notificacao" : "1.0.2",
+    "e-commerce-passaro/autenticacao" : "1.0.2"
+  },
+  "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "login" ],
+  "autoload": {
+        "psr-4": {
+            "Ecompassaro\\Login\\": "./src/Login"
+        }
+  }
+}

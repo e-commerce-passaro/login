@@ -1,10 +1,10 @@
 <?php
 namespace Ecompassaro\Login\Registrar;
 
-use Zend\Form\Form;
+use Zend\Form\Form as ZendForm;
 use Zend\InputFilter\Factory as InputFilterFactory;
 
-class Form extends Form
+class Form extends ZendForm
 {
     public function __construct()
     {

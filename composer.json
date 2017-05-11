@@ -1,10 +1,10 @@
 {
   "name" : "e-commerce-passaro/login",
   "description" : "Biblioteca de login",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type":"library",
   "homepage":"https://github.com/e-commerce-passaro/login",
-  "time":"2017-05-04 17:09:06",
+  "time":"2017-05-10 16:06:07",
   "license":"GPL-3.0+",
   "authors":[{
 	"name":"Marcel Bezerra da Silva",
@@ -20,7 +20,7 @@
   "require" : {
     "php" : ">=7.0",
     "zendframework/zend-form" : "2.10.0",
-    "e-commerce-passaro/acesso" : "1.0.2",
+    "e-commerce-passaro/acesso" : "1.1.0",
     "e-commerce-passaro/notificacao" : "1.0.2",
     "e-commerce-passaro/autenticacao" : "1.0.2"
   },
